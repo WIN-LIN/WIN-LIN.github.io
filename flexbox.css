@@ -1,0 +1,33 @@
+@media (min-width: 769px) {
+  .header-container,
+  .main-nav {
+    display: flex;
+  }
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner,
+  h2,
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #container-box-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #container-box-2 {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (min-width: 1025px) {
+  .header-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
